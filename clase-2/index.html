@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        
+        
+        <div>
+            <label for="nombre">Ingrese un nombre de usuario:</label>
+            <input placeholder="Matias_Gimenez" id="nombre"/>
+        </div>
+        <div>
+            <label for="correo">Ingrese su email</label>
+            <input placeholder="mati.a@gmail.com" id="correo"/>
+        </div>
+        <div>
+            <label for="pais">Seleccione su pais:</label>
+            <select id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="uruguay" selected>Uruguay</option>
+            </select>
+        </div>
+        <div>
+            <label>Vivis en argentina:</label>
+            <input type="radio" name="vivisEnArg">SI
+            <input type="radio" name="vivisEnArg">NO
+        </div>
+        <div>
+            <label for="resena">Dejanos una reseña</label>
+            <textarea id="resena"></textarea>
+        </div>
+        <input type="submit" value="Registrar">
+        <button>
+            Registrar    <i class="bi bi-emoji-smile"></i>
+        </button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
