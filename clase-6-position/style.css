@@ -24,7 +24,20 @@ header{
     align-items: center;
     border-radius: 10px;
     padding: 15px;
+    position: sticky;
+    top: 15px;
+    width: calc(100% - 30px);
+
 }
+
+::-webkit-scrollbar{
+    background-color: aqua;
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+
 
 /* 
 1 es a todos los lados
@@ -33,6 +46,32 @@ header{
 4 arriba, derecha, abajo, izquierda
 
 */
+
+.search-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-container input{
+    background-color: #36435D;
+    border: none;
+    height: 48px;
+    border-radius: 8px;
+    width: 250px;
+    padding-left: 40px;
+    padding-right: 10px;
+    color: white;
+    outline: none;
+}
+
+.search-container .bi-search{
+    position: absolute;
+    left: 10px;
+    color: rgb(255, 255, 255);
+
+
+}
 
 header nav{
     display: flex;
@@ -110,4 +149,11 @@ header nav{
     font-size: 40px;
     color: white;
     font-weight: 300;
+}
+
+
+main{
+    height: 200vh;
+    background-color: #148eff;
+
 }
