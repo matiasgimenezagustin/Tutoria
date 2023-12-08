@@ -1,0 +1,10 @@
+.card{
+    width: 500px;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: rgb(198, 198, 198);
+  }
+  
+  .card img{
+    width: 100%;
+  }
