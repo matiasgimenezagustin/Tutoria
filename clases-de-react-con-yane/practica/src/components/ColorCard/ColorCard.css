@@ -1,0 +1,33 @@
+.color-card{
+    width: 250px;
+}
+
+.colors{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+}
+
+.colors .color-item:nth-child(1){
+    flex: 2;
+    
+}
+.colors .color-item:nth-child(2){
+    flex: 1.5;
+}
+.colors .color-item:nth-child(3){
+    flex: 1.2;
+}
+.colors .color-item:nth-child(4){
+    flex: 1;
+}
+
+
+.color-card-controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}

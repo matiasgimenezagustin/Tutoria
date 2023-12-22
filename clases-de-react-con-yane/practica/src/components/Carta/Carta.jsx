@@ -4,7 +4,7 @@ import './Carta.css'
 const Carta = ({nombre, precio, img}) =>{
     console.log(nombre)
     return (
-        <div className='card'>
+        <div className='card' style={{backgroundColor: 'red'}}> {/* Estilos en linea */}
     
             <img src={img}/>
             <h2>{nombre}</h2>
